@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="css/mowog.css">
+
+<head>
+  <link rel="stylesheet" href="css/lightgallery.css">
+</head>
+
+<body>
+  <script src="js/lightgallery.min.js"></script>
+  <div class="title_img">
+    <img src="images/TransV5.gif" width="677" height="194">
+  </div>
+  <!-- Content will go here -->
+  <nav class="w3-bar w3-black">
+    <a href="index.html" class="w3-button w3-bar-item">Home</a>
+    <a href="news.html" class="w3-button w3-bar-item">News</a>
+    <a href="gallery.html" class="w3-button w3-bar-item">Gallery</a>
+    <a href="contact.html" class="w3-button w3-bar-item">Contact</a>
+  </nav>
+  <div class="main_content">
+    <section class="w3-container" style="max-width:75%">
+      <h1 class="w3-wide">Photo Gallery</h1>
+      <div id="lightgallery">
+          <a href="img/img1.jpg">
+              <img src="img/thumb1.jpg">
+          </a>
+          <a href="img/img2.jpg">
+              <img src="img/thumb2.jpg">
+          </a>
+      </div>
+      <script>
+        lightGallery(document.getElementById('lightgallery'));
+      </script>
+      
+    </section>
+  </div>
+</body>
+
+</html>
